@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int ft_strchr(char *str, char c)
+{
+    char h="-1";
+    char j='0';
+    int r=0;
+    int i=0;
+    while(str[i] != c)
+    {
+        r++;
+    }
+    if(r<= str[i])
+    {
+        printf("%d", h) ;
+    }
+    else
+    {
+        printf("%d", j);
+    }
+    if(str[i]= NULL)
+    {
+        printf("%d", j);
+    }
+    return 0;
+}
+
+int main()
+{
+    char c1= 'f';
+    char *str1[6]= "asdfg";
+    ft_strchr(*str1, c1);
+    return 0;
+}
